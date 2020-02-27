@@ -20,20 +20,20 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   
-row_index = 0
-hash = {}
+# row_index = 0
+# hash = {}
 
-while row_index < nds.count do
-movie_index = 0
-totalmoney = 0
-    while movie_index < nds[row_index][:movies].count do
-        totalmoney += nds[row_index][:movies][movie_index][:worldwide_gross]
-        movie_index += 1
-    end
-hash[nds[row_index][:name]] = totalmoney
-row_index += 1
-end
-puts hash
-end
+# while row_index < nds.count do
+# movie_index = 0
+# totalmoney = 0
+#     while movie_index < nds[row_index][:movies].count do
+#         totalmoney += nds[row_index][:movies][movie_index][:worldwide_gross]
+#         movie_index += 1
+#     end
+# hash[nds[row_index][:name]] = totalmoney
+# row_index += 1
+# end
+# puts hash
+# end
 
 pp directors_database
